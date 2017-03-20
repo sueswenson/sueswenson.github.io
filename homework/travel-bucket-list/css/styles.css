@@ -1,0 +1,51 @@
+.container {
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	background: rgb(30, 202, 159);
+}
+h1 {
+	text-align: center;
+	color: white;
+	padding:25px 0;
+}
+div {
+	text-align: center;
+  	font-family: helvetica, sans-serif;
+}
+#top p {
+  	display: inline;
+  	padding: 20px 10px; 
+  	text-align: center;
+  	font-weight: bold;
+}
+h2 {
+	padding: 20px 0px;
+}
+p {
+	text-align: left;
+	padding: 0px 20px 50px 20px;
+}
+.maui {
+		background-color: rgb(195, 221, 257);
+		max-width: 960px;
+		margin: 0 auto;
+}
+.Reykjavik {
+		background-color: rgb(195, 242, 252);
+		max-width: 960px;
+		margin: 0 auto;
+}
+.Aspen {
+		background-color: rgb(195, 221, 257);
+		max-width: 960px;
+		margin: 0 auto;
+}
+
+#footer {
+		clear: both;
+}
+/* I know I don't really need to style
+this footer ID in CSS since I don't have any floats 
+above it- I just thought it would might be cool incase I ever
+needed to add floats above it later(?) */
