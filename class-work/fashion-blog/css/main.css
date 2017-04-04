@@ -1,0 +1,73 @@
+
+.container {
+	padding: 54px; 
+	max-width: 720px;
+	padding: 54px;
+}
+
+nav	{
+	border: left;
+	margin: 5px 0 60px 0px;
+}
+a	{
+	margin-right: 25px;
+	color: #dddddd;
+}
+
+a:hover	{
+	color: black;
+}
+img	{
+	max-width: 100%;
+	padding:0px 0px 20px 0px;
+}
+
+h1	{
+	font-weight: 300;
+	color: #dd0000;
+	font-size: 35px;
+}
+h2 {
+	font-weight: 300;
+	color: black;
+}
+
+.date	{
+	color:  #cccccc;
+	font-size: 35px;
+}
+.title	{
+	color: black;
+}
+
+article	{
+	max-width: 720px;
+	color: #dddddd;
+	line-height: 1.5;
+	color: black;
+	border-bottom: 3px solid gray;
+	border: 25px 0px;
+
+
+}
+
+div	{
+	max-width: 720px;
+	float: right;
+	border-bottom-style: solid;
+	
+}
+
+footer {
+	color: #dd0000;
+	margin-top: 30px;
+}
+
+span {
+	color: bbbbbb);
+}
+
+
+
+
+

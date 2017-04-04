@@ -1,0 +1,130 @@
+
+.container	{
+	width: 720px;
+	padding: 54px;
+	border-left: 6px solid #dddddd;
+}
+.floatyleft	{
+	float: left;
+}
+.floatyright	{
+	float: right;
+}
+.clearbothkitty	{
+	clear: both;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav	{
+	background-color: black;
+}
+a:hover {
+	color: #aa0000;
+}
+
+nav a {
+display: inline-block;
+color: white;
+padding: 15px;
+text-decoration: none;
+}
+
+h1 {
+	color: #dd0000;
+	font-size: 35px;
+	font-weight: 300;
+}
+h2	{
+	font-weight: 300;
+}
+
+.date	{
+	font-size: 36px;
+	color: #CCCCCC;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	color: grey;
+	font-size: 20px;
+	padding: 18px 0 0 15px;
+	font-weight: 300;
+}
+h4	{
+	text-align: right;
+}
+h4 a   {
+	color: rgb(190, 10, 10);
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.firstcharacter {
+  color: rgb(200, 200, 200);
+  float: left;
+  font-size: 95px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+
+h5	{
+	color: rgb(135, 135, 135);
+}
+
+img	{
+	width: 100%;
+}
+.main {
+	font-size: 18px;
+	font-family: "Lato", Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #444444;
+}
+
+article {
+	max-width: 425px;
+	border-bottom: 1px solid #dddddd;
+	margin: 45px 0;
+	padding-bottom: 10px;
+}
+
+.needrule	{
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 20px;
+
+}
+
+aside	{
+	font-size: 18px;
+	font-family: "Lato", Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #444444;
+	max-width: 250px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 5px;
+}
+
+li {
+	color: black;
+}
+
+li span {
+	color: rgb(190, 10, 10);
+}
+
+.adbox	{
+	width: 250px;
+}
+
+footer	a {
+	color: rgb(190, 10, 10);
+	text-decoration: none;
+	font-size: 15px;
+}
+
