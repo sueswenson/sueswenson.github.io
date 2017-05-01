@@ -1,8 +1,5 @@
 
-/*
-font-family: 'Open Sans', sans-serif;
-font-family: 'One Source', serif; 
-*/
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
@@ -69,7 +66,6 @@ p {
 
 
 #page-opener h1 {
-	/*float: ;*/
 	color: rgb(100, 10, 10);
 	font-family: 'Oswald', serif;
 	font-size: 3em;
@@ -103,6 +99,7 @@ p {
 .container	{
 	background-color: black;
 }
+
 .banner {
 	background: url(../img/01_Consrv/01_walk_opener.JPG) center center no-repeat;
 	background-size: cover;
@@ -149,36 +146,11 @@ p {
 }
 
 
-
 article h1 {
 	font-style: sans-serif;
 	color: green;
 }
 
-.touts {
-	background: #EEE;
-	background: white;
-	overflow: hidden;
-	padding: 2% 0;
-}
-
-
-/*
-.tout {
-	float: left;
-	width: 27.3333%;
-	padding: 2% 3%;
-	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-}
-
-.tout:last-child {
-	box-shadow: none;
-}
-
-.tout .button {
-	background: #C6C6C6;
-}
-*/
 
 footer {
 	background: black;
@@ -186,3 +158,37 @@ footer {
 	padding: 2% 3%;
 	clear: both;
 }
+
+
+@media (max-width: 500px) {
+	header nav, header h1 section {
+		float: none;
+	}	
+	.wrapper  {
+		float: none;
+		width: 100%;
+	}
+	.container {
+		float: none;
+		width: 100%;
+	}
+	.blurb	{
+		float: none;
+		width: 100%;
+	}
+	#page-opener	{
+		float: none;
+		width: 100%;
+	}
+	#page-opener h1 {
+		font-size: 1.5em;}
+	}
+	h1	{
+		font-size: 1.5em;
+	}
+	article h1	{
+		font-size: 1.2em;
+	}
+
+
+
