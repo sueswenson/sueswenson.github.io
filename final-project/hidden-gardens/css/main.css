@@ -117,7 +117,7 @@ p {
 	box-shadow: 0 0 5px rgba(0,0,0,.75);
 }
 
-.consrv {
+#consrv {
 	background: url(../img/01_Consrv/02_solowalk.JPG) center center no-repeat;
 	background-size: cover;
 	background-color: green;
@@ -127,8 +127,8 @@ p {
 }
 
 
-.hallett {
-	background: url(../img/02hallet/hallettGate.JPG) center center no-repeat;
+#hallett {
+	background: url(../img/02hallet/001_hallet_gate2.JPG) center center no-repeat;
 	background-size: cover;
 	background-color: black;
 	overflow: hidden;
@@ -136,7 +136,7 @@ p {
 	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
 
-.shakesp {
+#shakesp {
 	background: url(../img/03shakes/02_shkpspath.JPG) center center no-repeat;
 	background-size: cover;
 	background-color: black;
